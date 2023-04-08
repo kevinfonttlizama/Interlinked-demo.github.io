@@ -1,0 +1,66 @@
+body
+{
+    background-image: url(../img/background_waifu2x_2x_png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sect
+{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+li
+{
+    list-style-type: none;
+}
+
+a
+{
+    color: white;
+    text-decoration-line: none;
+}
+
+.logo
+{
+    width: 150px;
+    height: auto;
+}
+
+.box-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1
+{
+    color: white;
+}
+
+button
+{
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+}
