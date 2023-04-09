@@ -4,6 +4,9 @@ body
     background-image: url(../img/background_waifu2x_2x_png.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 video
@@ -37,7 +40,6 @@ a
 {
     color: white;
     text-decoration-line: none;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .logo
@@ -70,28 +72,27 @@ a
 h1
 {
     color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     font-size: 2.75rem;
 }
 
-button
+.btn
 {
     padding: 10px 10px;
     border-radius: 10px;
     border: 0;
     background: linear-gradient(90deg, red, rgb(70, 0, 0));
     color: white;
+    width: 250px;
+    text-align: center;
 }
 
-.button-studio
+.btn-studio
 {
-    width: 100px;
+    width: 150px;
 }
 
-.button-start
+.btn-start
 {
     margin-top: 5em;
-    width: 250px;
-    font-size: 1rem;
+    letter-spacing: 5px;
 }
