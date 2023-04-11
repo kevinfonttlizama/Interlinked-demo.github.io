@@ -90,7 +90,7 @@ a
 .btn
 {
     background: linear-gradient(90deg, red, rgb(70, 0, 0));
-    border-radius: 10px;
+    border-radius: 5px;
     border: 0;
     color: white;
     padding: 10px 10px;
