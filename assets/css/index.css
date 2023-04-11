@@ -94,8 +94,7 @@ a
     border: 0;
     color: white;
     padding: 10px 10px;
-    text-align: center;
-    width: 250px;    
+    text-align: center; 
 }
 
 .btn-studios
@@ -105,6 +104,11 @@ a
 
 .btn-start
 {
+    display: flex;
+    align-items: center;
     margin-top: 5em;
-    letter-spacing: 5px;
+    font-size: 0.8em;
+    letter-spacing: 3px;
+    height: 20px;
+    width: 200px;
 }
