@@ -1,53 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Noto+Sans:wght@800&family=Open+Sans:wght@300;400;700&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
 
     <title>InterLinked</title>
 </head>
 <body>
     <div>
 
-        <section class="sect">
-            <video src="./assets/video/background.mp4" autoplay="true" muted="true" loop="true" width="100%"></video>
+        <section class="sect flex-center">
+            <video class="sect__video" src="./assets/video/background.mp4" autoplay="true" muted="true" loop="true"></video>
         </section>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Quienes somos</a>
-                </li>
-                <li>
-                    <a href="#">Equipo</a>
-                </li>
-                
-                <div>
-                    <img src="./assets/img/index/LOGO_INDEX.svg" alt="" height="87"
-                    width="300">
-                </div>
-                
-                <li>
-                    <a href="#">Contacto</a>
-                </li>
-                <li>
-                    <a href="#"><button>Plataforma Star</button></a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-
-    <div class="box-main">
-        <div class="main">
-
-            <h1>Publica, conecta y desarrolla.</h1>
-    
-            <button>Comenzar</button>
-    
+        <div class="nav">
+            <div class="nav-item">
+                <a href="#">Quienes somos</a>
+            </div>
+            <div class="nav-item">
+                <a href="#">Equipo</a>
+            </div>
+            <div class="nav-item">
+                <img src="./assets/img/index/LOGO_INDEX.svg" alt="" height="87"
+                width="250">
+            </div>
+            <div class="nav-item">
+                <a href="#">Contacto</a>
+            </div>
+            <div class="nav-item">
+                <a class=" btn btn-studios" href="#">Studios</a>
+            </div>            
         </div>
-    </div>    
+
+        <div class="main">
+            <div class="main__box">
+    
+                <h1 class="main__title">Publica, conecta y desarrolla.</h1>
+        
+                <a class="btn btn-start flex-center" href="#">COMENZAR</a>
+        
+            </div>
+        </div> 
+    </div>       
 </body>
 </html>
