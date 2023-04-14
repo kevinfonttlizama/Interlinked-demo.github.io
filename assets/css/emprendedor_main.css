@@ -105,3 +105,46 @@
 {
     justify-content: flex-start;
 }
+
+
+
+.proyect-container
+{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyect
+{
+    background-color: rgb(29, 29, 29);
+    border-radius: 2em;
+    color: white;
+    justify-content: center;
+    margin: 1em;
+    padding: 2em 3em;
+    width: 22%;
+}
+
+.proyect__logo
+{
+    background-color: white;
+    border-radius: 2.3em;
+    height: 5em;
+    width: 6em;    
+}
+
+.proyect__title
+{
+    text-align: center;
+}
+
+.proyect__descripcion
+{
+    padding-left: 1em;
+    width: 15em;
+}
+
+.proyect__p
+{
+    font-size: medium;
+}
