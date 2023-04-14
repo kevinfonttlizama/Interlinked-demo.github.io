@@ -114,17 +114,23 @@
 {
     flex-wrap: wrap;
     justify-content: center;
+    margin: 1em 0;
 }
 
 .proyect
 {
     background-color: rgb(29, 29, 29);
-    border-radius: 2em;
+    border-radius: 2.2em;
     color: white;
     justify-content: center;
     margin: 1em;
-    padding: 2em 3em;
+    padding: 0 3em 1em;
     width: 22%;
+}
+
+.proyect-info
+{
+    flex-direction: column;
 }
 
 .proyect__logo
@@ -137,7 +143,14 @@
 
 .proyect__title
 {
+    height: 2em;
+    padding-top: 1em;
     text-align: center;
+}
+
+.title__p
+{
+    letter-spacing: 3px;
 }
 
 .proyect__descripcion
