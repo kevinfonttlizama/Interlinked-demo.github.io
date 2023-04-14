@@ -55,7 +55,7 @@
   
   .btn-start {
     font-size: 1em;
-    width: 12.5rem;
+    width: 12.5em;
     background: linear-gradient(90deg, red, rgb(70, 0, 0));
     border-radius: 5px;
     border: 0;
@@ -71,28 +71,28 @@
   }
 
   .icons__main{
-    padding: 20px 10px;
+    padding: 1.25em .625em;
   }
   
   .icons__btn{
     cursor: pointer;
     display: flex;
     background-color: #fff;
-    width: 170px;
-    height: 65px;
+    width: 10.625em;
+    height: 4.0625em;
     border-radius: 10px;
 
   }
 
   .icons__dev {
-    padding: 5px 10px;
+    padding: .1125em .125em;
     color: #000;
-    font-size: 45px;
+    font-size: 2.8125em;
     
   }
 
   .icons__text{
-    padding: 15px 0px;
+    padding: .9375em 0em;
     color: #000;
     font-size: 1em;
   }
