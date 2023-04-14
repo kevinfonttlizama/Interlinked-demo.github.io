@@ -5,7 +5,7 @@
 }
 
 
-.grid
+.nav
 {
     display: grid;
     grid-template-columns: 30% 40% 30%;
@@ -88,4 +88,20 @@
 .svg-pad
 {
     padding-right: 0.2em;
+}
+
+
+
+
+
+
+
+.btn-add
+{
+    justify-content: flex-end;
+}
+
+.btn-idioma
+{
+    justify-content: flex-start;
 }
