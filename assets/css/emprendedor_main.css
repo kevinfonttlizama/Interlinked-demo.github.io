@@ -81,6 +81,11 @@
     margin: 0;
 }
 
+.svg-add-color
+{
+    filter: invert(100%) saturate(1) brightness(1) contrast(1);
+}
+
 
 .svg-color
 {
@@ -106,6 +111,17 @@
 .btn-idioma
 {
     justify-content: flex-start;
+}
+
+.btn-add-proyect
+{
+    background: linear-gradient(90deg, red, rgb(70, 0, 0));
+    border-radius: 2em;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    padding: 0 1em;
+    text-align: center;
 }
 
 
