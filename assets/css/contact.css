@@ -6,12 +6,24 @@ body {
     font-family: sans-serif;
 }
 
-
-
 .logo
 {
     width: 150px;
     height: auto;
+}
+
+
+.contact-title {
+    padding-bottom: 100px;
+}
+
+.form-container {
+    background: #0d0d0db8;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10%;
 }
 
 
