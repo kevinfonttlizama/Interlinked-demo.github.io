@@ -8,7 +8,8 @@ body {
 
 .header-nav {
     text-decoration: none;
-    padding-left: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
     color: white;
     font-weight: bold;
 }
