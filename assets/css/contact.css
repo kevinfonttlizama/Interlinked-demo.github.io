@@ -6,11 +6,12 @@ body {
     font-family: sans-serif;
 }
 
-.header-nav {
-    text-decoration: none;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    color: white;
-    font-weight: bold;
+
+
+.logo
+{
+    width: 150px;
+    height: auto;
 }
+
 
