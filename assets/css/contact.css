@@ -1,9 +1,59 @@
 
 
+
 body {
-    background: #000000;
-    color: white;
     font-family: sans-serif;
+    background: #000000;
+    font-weight: bold;
+}
+
+.nav
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+a
+{
+    color: white;
+    text-decoration-line: none;
+}
+
+.btn
+{
+    background: linear-gradient(90deg, red, rgb(70, 0, 0));
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 10px 10px;
+    text-align: center; 
+}
+
+.btn-studios
+{
+    width: 150px;
 }
 
 .logo
@@ -12,18 +62,5 @@ body {
     height: auto;
 }
 
-
-.contact-title {
-    padding-bottom: 100px;
-}
-
-.form-container {
-    background: #0d0d0db8;
-    width: 600px;
-    height: 400px;
-    margin: auto;
-    justify-content: center;
-    border-radius: 10%;
-}
 
 
