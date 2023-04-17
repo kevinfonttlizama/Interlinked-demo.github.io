@@ -10,8 +10,9 @@ body {
   background-color: black;
   background-image: url(../img/login/LOGIN_BACKGROUND.png);
   background-repeat: no-repeat;
-  background-size: 50vw;
+  background-size: 50vw 100vh ;
 }
+
 
 .icon__sup,
 .icons,
@@ -59,3 +60,100 @@ body {
   border-radius: 12px;
   padding: 0.3125rem;
 }
+
+/* ----------------Media Queries ---------------- */
+
+  /* Tamaño por defecto pantallas  */
+  @media all and (min-width: 1130px) and (max-width: 1360px) {
+
+    body{
+      font-size: .6em;
+    }
+
+    .form{
+      padding: 2em 3.25em;
+      margin-top: 2em;
+    }
+
+    .form__input{
+      width: 26em;
+      height: 1.7em;
+    }
+
+   }
+  
+  /* Tamaño tablet horizontal */
+  @media all and (min-width: 550px ) and (max-width: 1130px) { 
+
+    body{
+      background-size: cover ;
+      font-size: .6em;
+    }
+
+    .form-seccion {
+      display: flex;
+      justify-content: center;
+    }
+
+    .form{
+      background-color: rgba(65, 65, 65, 0.6);
+      padding: 2em 3.25em;
+    }
+
+    .form__input{
+      width: 26em;
+      height: 1.7em;
+    }
+
+  }
+  
+  /* Tamaño tablet  */
+  /* @media all and (min-width: 480px) and (max-width: 768px) { } */
+  
+  /* Tamaño teléfonos */
+  @media all and (max-width: 550px) {
+
+    body{
+      background-size: 100vh ;
+      font-size: .4em;
+    }
+    
+    .form-seccion {
+      display: flex;
+      justify-content: center;
+    }
+
+    .form{
+      background-color: rgba(65, 65, 65, 0.6);
+      padding: 1em;
+    }
+
+    .form__input{
+      width: 24em;
+      height: 1.7em;
+    }
+
+   }
+
+   @media all and (max-width: 330px) {
+
+    body{
+      background-size: 100vh ;
+    }
+    
+    .form-seccion {
+      display: flex;
+      justify-content: center;
+    }
+
+    .form{
+      background-color: rgba(65, 65, 65, 0.6);
+      padding: 1em;
+    }
+
+    .form__input{
+      width: 15em;
+      height: 1.3em;
+    }
+
+   }
