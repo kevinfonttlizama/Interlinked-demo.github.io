@@ -56,7 +56,7 @@ body {
 }
 
 .form__input {
-  width: 35.5em;
+  width: 85%;
   height: 3em;
   text-align: center;
   border-radius: 6px;
@@ -70,19 +70,24 @@ body {
 .form__input__name,
 .form__input__type,
 .form__input__capital {
-  width: 11.625em;
+  width: 70%;
   height: 3em;
   text-align: center;
   border-radius: 6px;
 }
 
+.icons__btn,
 .icons__btn__upload {
-    cursor: pointer;
-    display: flex;
-    background-color: #fff;
-    width: 15.625em;
-    height: 4.0625em;
-    border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  background-color: #fff;
+  width: 9.625em;
+  height: 4.0625em;
+  border-radius: 10px;
+}
+
+.icons__btn__upload {
+  width: 15.625em;
 }
 
 .bi-upload {
@@ -90,27 +95,13 @@ body {
 }
 
 .icons__container {
-  margin-left: -20px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .icons__main {
-  padding: 1.25em 0.625em;
+  padding: 1em;
   margin-left: -10px;
-}
-
-.icons__btn {
-  cursor: pointer;
-  display: flex;
-  background-color: #fff;
-  width: 10.625em;
-  height: 4.0625em;
-  border-radius: 10px;
-}
-
-.icon__upload {
-  font-size: 4em;
 }
 
 .icons__dev {
@@ -134,4 +125,267 @@ body {
   color: white;
   padding: 0.625em 0.625em;
   cursor: pointer;
+}
+
+/* ----------------Media Queries ---------------- */
+
+/* Tamaño por defecto pantallas  */
+@media all and (min-width: 1130px) and (max-width: 1360px) {
+  * {
+    font-size: 13px;
+  }
+
+  .form {
+    padding: 0.5em 3.25em;
+  }
+
+  .logotipo__title {
+    margin-left: -3px;
+  }
+
+  .form__input {
+    width: 26em;
+    height: 2em;
+  }
+
+  .form__input__left {
+    padding-left: 1.5625rem;
+  }
+
+  .form__input__name,
+  .form__input__type,
+  .form__input__capital {
+    width: 8.625em;
+    height: 2em;
+    margin-top: 20px;
+  }
+
+  .form__input__add {
+    width: 5em;
+    height: 4em;
+  }
+
+  .icons__main {
+    padding: 1em 0.1em 0.1em 0.1em;
+    margin-left: 10px;
+  }
+
+  .icons__btn__upload {
+    width: 13em;
+    height: 3em;
+    margin-left: -12px;
+  }
+
+  .bi-upload {
+    font-size: 30px;
+  }
+
+  .icons__btn,
+  .icons__btn__upload {
+    width: 8.625em;
+    height: 4em;
+  }
+
+  .icons__text {
+    font-size: 13px;
+  }
+}
+
+/* Tamaño tablet horizontal */
+@media all and (min-width: 990px) and (max-width: 1130px) {
+  body {
+    background-size: cover;
+    font-size: 0.6em;
+  }
+
+  .form-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    background-color: rgba(65, 65, 65, 0.6);
+    width: 50%;
+  }
+
+  .form__input {
+    width: 100%;
+    height: 1.7em;
+  }
+}
+
+/* Tamaño tablet  */
+@media all and (min-width: 550px) and (max-width: 990px) {
+  body {
+    background-size: cover;
+  }
+
+  .form-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    background-color: rgba(65, 65, 65, 0.6);
+    width: 50%;
+  }
+
+  .form__input {
+    width: 90%;
+    height: 2em;
+  }
+
+  .form__input__left {
+    padding-left: 3rem;
+  }
+
+  .form__input__name,
+  .form__input__type,
+  .form__input__capital {
+    width: 8.625em;
+    height: 2em;
+    margin-top: 20px;
+  }
+
+  .form__input__add {
+    width: 5em;
+    height: 4em;
+  }
+
+  .icons__btn__upload {
+    font-size: 12px;
+    width: 15.625em;
+    height: 4.0625em;
+  }
+
+  .icons__btn {
+    width: 8.625em;
+    height: 4.0625em;
+  }
+
+  .icons__text {
+    font-size: 15px;
+  }
+}
+
+/* Tamaño teléfonos */
+@media all and (max-width: 550px) {
+  * {
+    font-size: 15px;
+  }
+
+  body {
+    background-size: 100vh;
+  }
+
+  .form-seccion {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    width: 85%;
+    background-color: rgba(65, 65, 65, 0.6);
+    padding: 1em;
+  }
+
+  .form__input {
+    width: 24em;
+    height: 1.7em;
+  }
+
+  .form__input__left {
+    padding-left: 3rem;
+  }
+
+  .form__input__name,
+  .form__input__type,
+  .form__input__capital {
+    width: 8.625em;
+    height: 2em;
+    margin-top: 20px;
+  }
+
+  .form__input__add {
+    width: 5em;
+    height: 4em;
+  }
+
+  .icons__btn__upload {
+    font-size: 12px;
+    width: 15.625em;
+    height: 4.0625em;
+  }
+
+  .icons__btn {
+    width: 8.625em;
+    height: 4.0625em;
+  }
+
+  .icons__text {
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 330px) {
+  * {
+    font-size: 10px;
+  }
+
+  body {
+    background-size: 100vh;
+  }
+
+  .form-seccion {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    width: 85%;
+    background-color: rgba(65, 65, 65, 0.6);
+    padding: 1em;
+  }
+
+  .form__input {
+    width: 24em;
+    height: 1.7em;
+  }
+
+  .form__input__left {
+    padding-left: 5rem;
+  }
+
+  .form__input__name,
+  .form__input__type,
+  .form__input__capital {
+    width: 8.625em;
+    height: 2em;
+    margin-top: 20px;
+  }
+
+  .form__input__add {
+    margin-left: 5px;
+    width: 5em;
+    height: 4em;
+  }
+
+  .icons__btn__upload {
+    font-size: 10px;
+    width: 15.625em;
+    height: 3.0625em;
+  }
+
+  .bi-upload{
+    font-size: 20px;
+  }
+
+  .icons__btn {
+    width: 8.625em;
+    height: 4.0625em;
+  }
+
+  .icons__text {
+    font-size: 10px;
+  }
 }
