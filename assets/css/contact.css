@@ -121,3 +121,36 @@ footer {
     
 }
 
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+label.first-name {
+    padding-right: 30px;
+}
+
+section.name {
+
+    display: flex;
+}
+
+section.email {
+    justify-content: center;
+    display: flex;
+}
+
+section.message {
+    justify-content: center;
+    display: flex;
+}
+
+input.text {
+    width: 20;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input.block {
+    display: block;
+}
