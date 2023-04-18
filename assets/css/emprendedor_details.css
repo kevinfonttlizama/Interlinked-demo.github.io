@@ -102,6 +102,11 @@ body
     filter: invert(0%);
 }
 
+.pointer
+{
+    cursor: pointer;
+}
+
 
 
 .grid-proyecto
@@ -116,7 +121,7 @@ body
 {
     background-color: var(--bg-element-color);
     border-radius: 2em 2em 0 0;
-    height: 75vh;
+    height: 77vh;
     padding: 2em;
 }
 
