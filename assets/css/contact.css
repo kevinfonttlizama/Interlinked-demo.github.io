@@ -131,6 +131,10 @@ label.first-name {
     padding-right: 30px;
 }
 
+span {
+    color: red;
+}
+
 section.name {
 
     display: flex;
@@ -146,6 +150,10 @@ section.message {
     display: flex;
 }
 
+section.social {
+    display: flex;
+    justify-content: center;
+}
 
 input.flex {
     display: flex;
@@ -168,4 +176,13 @@ input.block-message {
     border-radius: 12px;
 }
  
-
+li {
+    margin: 10px;
+    border-radius: 100px;
+    background: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
