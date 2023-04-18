@@ -111,6 +111,7 @@ body
     grid-template-rows: 100%;
 }
 
+
 .proyecto
 {
     background-color: var(--bg-element-color);
@@ -119,6 +120,11 @@ body
     padding: 2em;
 }
 
+.proyecto__info
+{
+    align-items: center;
+    flex-direction: column;
+}
 
 .proyecto__logo
 {
@@ -129,6 +135,34 @@ body
     z-index: 100;
 }
 
+.proyecto__recursos
+{
+    align-self: start;
+}
+
+.proyecto__contacto
+{
+    margin-top: 2em;
+}
+
+
+
+.btn
+{
+    background-color: black;
+    border: 0;
+    border-radius: 1em;
+    padding: 10px;
+}
+
+.persona
+{
+    background-color: white;
+    border-radius: 1em;
+    height: 23px;
+    margin: 2px;
+    width: 23px;
+}
 
 
 .proyecto_title
