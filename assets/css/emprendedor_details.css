@@ -6,20 +6,93 @@
 
 body
 {
+    padding: 0;
+    margin: 0;
+}
+
+.bg
+{
     background-color: black;
+}
+
+.font
+{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
-.grid-nav
+
+/* //////////////////////////////////////////////////////////// */
+/* GRID */
+
+.container
 {
     display: grid;
-    grid-template-columns: 30% 40% 30%;
-    grid-template-rows: 100%;
-    margin: 1em 0;
-}
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.9fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Nav"
+      "Details";
+  }
+  
+  .nav {  display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". Logo Perfil";
+    grid-area: Nav;
+    padding: 1em 0;
+  }
+  
+  .logo {
+    justify-self: center;
+    align-self: center;
+    grid-area: Logo;
+  }
+  
+  .perfil {
+    justify-self: center;
+    align-self: center;
+    grid-area: Perfil;
+  }
+  
+  .details {  display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Info-1 Info-2 Close";
+    grid-area: Details;
+  }
+  
+  .info-1 {
+    justify-self: center;
+    align-self: start;
+    grid-area: Info-1;
+  }
+  
+  .info-2 {
+    justify-self: center; 
+    align-self: start; 
+    grid-area: Info-2; 
+  }
+  
+  .close {
+    justify-self: end; 
+    align-self: start; 
+    grid-area: Close; 
+  }
+  
 
+/* //////////////////////////////////////////////////////////// */
 
 /* Propiedades Flex-box por clases: */
 .flex
@@ -44,7 +117,7 @@ body
 
 .logo__img
 {
-    width: 60px;
+    width: 4em;
 }
 
 
@@ -108,21 +181,11 @@ body
 }
 
 
-
-.grid-proyecto
-{
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 100%;
-}
-
-
 .proyecto
 {
     background-color: var(--bg-element-color);
     border-radius: 2em 2em 0 0;
-    height: 77vh;
-    padding: 2em;
+    padding: 3em 2em;
 }
 
 .proyecto__info
@@ -211,8 +274,3 @@ body
 
 
 
-.proyecto__minimizar
-{
-    justify-content: end;
-    align-items: flex-start;
-}
