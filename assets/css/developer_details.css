@@ -47,7 +47,7 @@ body
     grid-template-areas:
       ". Logo Perfil";
     grid-area: Nav;
-    padding: 1em 0;
+    padding: 1vw 0;
   }
   
   .logo {
@@ -58,7 +58,7 @@ body
 
   .user-activity
   {
-    margin-right: 1em;
+    margin-right: 1vw;
   }
   
   .perfil {
@@ -118,10 +118,14 @@ body
     grid-column-start: 2;    
 }
 
+.texto-responsivo
+{
+    font-size: 1vw;
+}
 
 .logo__img
 {
-    width: 4em;
+    width: 4vw;
 }
 
 
@@ -134,9 +138,9 @@ body
 .nick-box
 {
     background-color: var(--bg-element-color);
-    border-radius: 1em;
+    border-radius: 1vw;
     color: white;
-    height: 2em;
+    height: 2vw;
     margin: 0;
     text-align: center;  
 }
@@ -146,9 +150,9 @@ body
 {
     background-color: white;
     border-radius: 50%;    
-    height: 40px;
+    height: 2.2vw;
     justify-self: flex-start;
-    width: 40px;
+    width: 2.2vw;
     z-index: 100;
 }
 
@@ -156,7 +160,7 @@ body
 .nick
 {
     margin: 0;
-    padding: 0 1em;
+    padding: 0 1vw;
 }
 
 .svg-color
@@ -166,7 +170,7 @@ body
 
 .svg-pad
 {
-    padding-right: 0.2em;
+    padding-right: 0.2vw;
 }
 
 .svg-invert
@@ -188,8 +192,8 @@ body
 .proyecto
 {
     background-color: var(--bg-element-color);
-    border-radius: 2em 2em 0 0;
-    padding: 3em 2em;
+    border-radius: 2vw 2vw 0 0;
+    padding: 3vw 2vw;
 }
 
 .proyecto__info
@@ -201,10 +205,10 @@ body
 .proyecto__logo
 {
     background-color: white;
-    border-radius: 2em;
-    height: 130px;
-    margin-bottom: 2em;
-    width: 150px;
+    border-radius: 2vw;
+    height: 12vw;
+    margin-bottom: 2vw;
+    width: 12vw;
     z-index: 100;
 }
 
@@ -215,7 +219,7 @@ body
 
 .proyecto__contacto
 {
-    margin-top: 2em;
+    margin-top: 1vw;
 }
 
 
@@ -224,17 +228,17 @@ body
 {
     background-color: black;
     border: 0;
-    border-radius: 1em;
-    padding: 10px;
+    border-radius: 1vw;
+    padding: 0.8vw;
 }
 
 .persona
 {
     background-color: white;
-    border-radius: 1em;
-    height: 23px;
-    margin: 2px;
-    width: 23px;
+    border-radius: 1vw;
+    height: 2vw;
+    margin: 0.1vw;
+    width: 2vw;
 }
 
 
@@ -242,39 +246,38 @@ body
 {
     font-size: 1.3vw;
     font-weight: bold;
-    letter-spacing: 0.7em;
-    margin-bottom: 1em;
+    letter-spacing: 0.7vw;
+    margin-bottom: 1vw;
 }
 
 .proyecto__descrip
 {
     font-size: 1.3vw;
     font-weight: 500;
-    padding: 0.3em 0;
+    padding: 0.3vw 0;
 }
 
 .proto-title
 {
     font-size: 1.2vw;
     font-weight: bold;
-    letter-spacing: 0.1em;
-    margin-top: 1em;
+    letter-spacing: 0.1vw;
+    margin-top: 1vw;
 }
 
 .proyecto__prototipos
 {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 5em;
 }
 
 .prototipo
 {
     background-color: black;
-    border-radius: 2em;
-    height: 130px;
-    margin: 1em;
-    width: 130px;
+    border-radius: 2vw;
+    height: 9vw;
+    margin: 1vw;
+    width: 9vw;
 }
 
 
@@ -283,20 +286,20 @@ body
 .proyecto_acciones
 {
     flex-direction: column;
-    margin-top: 2em;
+    margin-top: 2vw;
 }
 
 
 
 .btn-action
 {
-    border-radius: 0.8em;
+    border-radius: 0.8vw;
     border: 0;
     color: white;
     font-weight: bold;
-    font-size: 0.8em;
-    margin-bottom: 1em;
-    padding: 10px 4em;
+    font-size: 0.8vw;
+    margin-bottom: 1vw;
+    padding: 0.9vw 3vw;
     text-align: center;
     text-decoration: none;
 }
