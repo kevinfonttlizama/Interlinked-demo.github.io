@@ -56,6 +56,11 @@ body
     align-self: center;
     grid-area: Logo;
   }
+
+  .user-activity
+  {
+    margin-right: 1em;
+  }
   
   .perfil {
     justify-self: center;
@@ -199,6 +204,7 @@ body
     background-color: white;
     border-radius: 2em;
     height: 130px;
+    margin-bottom: 2em;
     width: 150px;
     z-index: 100;
 }
@@ -235,15 +241,16 @@ body
 
 .proyecto_title
 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     letter-spacing: 0.7em;
-    margin-bottom: 0;
+    margin-bottom: 1em;
 }
 
 .proyecto__descrip
 {
-    font-size: 0.9em;
+    font-size: 1em;
+    font-weight: 500;
     padding: 0.3em 0;
 }
 
@@ -253,7 +260,7 @@ body
     font-size: 1.2em;
     font-weight: bold;
     letter-spacing: 0.1em;
-    margin-top: 1;
+    margin-top: 1em;
 }
 
 .proyecto__prototipos
