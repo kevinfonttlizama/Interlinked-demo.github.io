@@ -1,0 +1,275 @@
+:root
+{
+    --bg-element-color: #0c0d0e;
+}
+
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+.bg
+{
+    background-color: black;
+}
+
+.font
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* //////////////////////////////////////////////////////////// */
+/* GRID */
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.9fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Nav"
+      "Details";
+  }
+  
+  .nav {  display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". Logo Perfil";
+    grid-area: Nav;
+    padding: 1em 0;
+  }
+  
+  .logo {
+    justify-self: center;
+    align-self: center;
+    grid-area: Logo;
+  }
+  
+  .perfil {
+    justify-self: center;
+    align-self: center;
+    grid-area: Perfil;
+  }
+  
+  .details {  display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Info-1 Info-2 Close";
+    grid-area: Details;
+  }
+  
+  .info-1 {
+    justify-self: center;
+    align-self: start;
+    grid-area: Info-1;
+  }
+  
+  .info-2 {
+    justify-self: center; 
+    align-self: start; 
+    grid-area: Info-2; 
+  }
+  
+  .close {
+    justify-self: end; 
+    align-self: start; 
+    grid-area: Close; 
+  }
+  
+
+/* //////////////////////////////////////////////////////////// */
+
+/* Propiedades Flex-box por clases: */
+.flex
+{
+    display: flex;
+}
+.flex-jc-center
+{
+    justify-content: center;
+}
+.flex-ai-center
+{
+    align-items: center;
+}
+/* /////////////////// */
+
+.logo
+{
+    grid-column-start: 2;    
+}
+
+
+.logo__img
+{
+    width: 4em;
+}
+
+
+.user
+{
+    grid-column-start: 3;
+}
+
+
+.nick-box
+{
+    background-color: var(--bg-element-color);
+    border-radius: 1em;
+    color: white;
+    height: 2em;
+    margin: 0;
+    text-align: center;  
+}
+
+
+.avatar
+{
+    background-color: white;
+    border-radius: 50%;    
+    height: 40px;
+    justify-self: flex-start;
+    width: 40px;
+    z-index: 100;
+}
+
+
+.nick
+{
+    margin: 0;
+    padding: 0 1em;
+}
+
+.svg-color
+{
+    filter: invert(50%) saturate(1) brightness(1) contrast(1);
+}
+
+.svg-pad
+{
+    padding-right: 0.2em;
+}
+
+.svg-invert
+{
+    transform: rotate(180deg);
+}
+
+.svg-color:hover
+{
+    filter: invert(0%);
+}
+
+.pointer
+{
+    cursor: pointer;
+}
+
+
+.proyecto
+{
+    background-color: var(--bg-element-color);
+    border-radius: 2em 2em 0 0;
+    padding: 3em 2em;
+}
+
+.proyecto__info
+{
+    align-items: center;
+    flex-direction: column;
+}
+
+.proyecto__logo
+{
+    background-color: white;
+    border-radius: 2em;
+    height: 130px;
+    width: 150px;
+    z-index: 100;
+}
+
+.proyecto__recursos
+{
+    align-self: start;
+}
+
+.proyecto__contacto
+{
+    margin-top: 2em;
+}
+
+
+
+.btn
+{
+    background-color: black;
+    border: 0;
+    border-radius: 1em;
+    padding: 10px;
+}
+
+.persona
+{
+    background-color: white;
+    border-radius: 1em;
+    height: 23px;
+    margin: 2px;
+    width: 23px;
+}
+
+
+.proyecto_title
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0.7em;
+    margin-bottom: 0;
+}
+
+.proyecto__descrip
+{
+    font-size: 0.9em;
+    padding: 0.3em 0;
+}
+
+
+.proto-title
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin-top: 0;
+}
+
+.proyecto__prototipos
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5em;
+}
+
+.prototipo
+{
+    background-color: black;
+    border-radius: 2em;
+    height: 130px;
+    margin: 1em;
+    width: 130px;
+}
+
+
