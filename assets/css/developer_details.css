@@ -60,6 +60,11 @@ body
   {
     margin-right: 1vw;
   }
+
+  .svg-mar
+  {
+    margin-right: 0.7vw;
+  }
   
   .perfil {
     justify-self: center;
@@ -193,7 +198,7 @@ body
 {
     background-color: var(--bg-element-color);
     border-radius: 2vw 2vw 0 0;
-    padding: 3vw 2vw;
+    padding: 2vw 2vw;
 }
 
 .proyecto__info
@@ -208,7 +213,7 @@ body
     border-radius: 2vw;
     height: 12vw;
     margin-bottom: 2vw;
-    width: 12vw;
+    width: 13vw;
     z-index: 100;
 }
 
@@ -219,7 +224,8 @@ body
 
 .proyecto__contacto
 {
-    margin-top: 1vw;
+    justify-content: space-around;
+    margin-top: 3vw;
 }
 
 
@@ -244,7 +250,7 @@ body
 
 .proyecto_title
 {
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     font-weight: bold;
     letter-spacing: 0.7vw;
     margin-bottom: 1vw;
@@ -259,7 +265,7 @@ body
 
 .proto-title
 {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     font-weight: bold;
     letter-spacing: 0.1vw;
     margin-top: 1vw;
