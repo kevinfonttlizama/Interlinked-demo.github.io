@@ -240,7 +240,7 @@ body
 
 .proyecto_title
 {
-    font-size: 1.3em;
+    font-size: 1.3vw;
     font-weight: bold;
     letter-spacing: 0.7em;
     margin-bottom: 1em;
@@ -248,7 +248,7 @@ body
 
 .proyecto__descrip
 {
-    font-size: 1em;
+    font-size: 1.3vw;
     font-weight: 500;
     padding: 0.3em 0;
 }
@@ -256,7 +256,7 @@ body
 
 .proto-title
 {
-    font-size: 1.2em;
+    font-size: 1.2vw;
     font-weight: bold;
     letter-spacing: 0.1em;
     margin-top: 1em;
