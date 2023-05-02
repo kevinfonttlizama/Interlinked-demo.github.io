@@ -6,8 +6,8 @@
 
 body
 {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 .bg
@@ -30,14 +30,13 @@ body
 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.9fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
+    grid-template-rows: 0.1fr auto;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
       "Nav"
       "Details";
+    height: 100vh;
   }
   
   .nav {  display: grid;
@@ -56,11 +55,6 @@ body
     align-self: center;
     grid-area: Logo;
   }
-
-  .user-activity
-  {
-    margin-right: 1em;
-  }
   
   .perfil {
     justify-self: center;
@@ -68,7 +62,8 @@ body
     grid-area: Perfil;
   }
   
-  .details {  display: grid;
+  .details { 
+    display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;
@@ -125,6 +120,10 @@ body
     width: 4em;
 }
 
+.user-activity
+{
+    margin-right: 1em;
+}
 
 .user
 {
@@ -190,7 +189,7 @@ body
 {
     background-color: var(--bg-element-color);
     border-radius: 2em 2em 0 0;
-    padding: 3em 2em;
+    padding: 3em 2em 0 2em;
 }
 
 .proyecto__info
