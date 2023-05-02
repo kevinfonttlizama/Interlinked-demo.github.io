@@ -234,25 +234,25 @@ body
 
 .proyecto_title
 {
-    font-size: 1.2em;
+    font-size: 1.3vw;
     font-weight: bold;
     letter-spacing: 0.7em;
-    margin-bottom: 0;
+    margin-bottom: 1em;
 }
 
 .proyecto__descrip
 {
-    font-size: 0.9em;
+    font-size: 1.3vw;
+    font-weight: 500;
     padding: 0.3em 0;
 }
 
-
 .proto-title
 {
-    font-size: 1.2em;
+    font-size: 1.2vw;
     font-weight: bold;
     letter-spacing: 0.1em;
-    margin-top: 0;
+    margin-top: 1em;
 }
 
 .proyecto__prototipos
