@@ -157,7 +157,7 @@ body
 {
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10em;
+    margin: auto;
 }
 
 .proyect
@@ -166,7 +166,7 @@ body
     border-radius: 2.2em;
     color: white;
     justify-content: center;
-    margin: 0 3em 5em 1em;
+    margin: 3em;
     padding: 0 4em 1em;
     width: 20em;
 }
