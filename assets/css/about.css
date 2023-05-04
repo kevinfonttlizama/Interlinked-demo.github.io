@@ -76,14 +76,14 @@ a
 .about-background {
     background:#0c0d0e;
     width: 100%;
-    height: 550px;
+    height: 500px;
     display: flex;
     align-items: center;
     border-radius: 40px;
 }
 
 .about-background p {
-    margin: 30%;
     font-size: x-large;
-    FINT
+    text-align: center;
+    margin: 30vw;
 }
