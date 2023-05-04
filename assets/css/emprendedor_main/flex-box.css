@@ -1,0 +1,18 @@
+/* Propiedades Flex-box por clases: */
+.flex
+{
+    display: flex;
+}
+.flex-jc-center
+{
+    justify-content: center;
+}
+.flex-ai-center
+{
+    align-items: center;
+}
+.flex-jc-space-b
+{
+    justify-content: space-between;
+}
+/* /////////////////// */

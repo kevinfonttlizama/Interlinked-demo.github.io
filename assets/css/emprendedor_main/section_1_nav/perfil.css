@@ -1,0 +1,27 @@
+.nick-box
+{
+    background-color: var(--bg-element-color);
+    border-radius: 1vw;
+    color: white;
+    height: 2vw;
+    margin: 0;
+    text-align: center;  
+}
+
+
+.avatar
+{
+    background-color: white;
+    border-radius: 50%;    
+    height: 2.5vw;
+    justify-self: flex-start;
+    width: 2.5vw;
+    z-index: 100;
+}
+
+
+.nick
+{
+    margin: 0;
+    padding: 0 1vw;
+}

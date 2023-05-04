@@ -1,0 +1,64 @@
+.proyect
+{
+    background-color: var(--bg-element-color);
+    border-radius: 2.2vw;
+    color: white;
+    justify-content: center;
+    padding: 1.7vw 1vw 2vw 2vw;
+    width: 100%;
+}
+
+.proyect-info
+{
+    flex-direction: column;
+}
+
+.proyect__logo
+{
+    background-color: white;
+    border-radius: 2.2vw;
+    height: 5.2vw;
+    width: 5.8vw;    
+}
+
+
+.div-cantidad
+{
+    height: 1vw;
+    margin-top: 1.2vw;
+}
+
+.p-cantidad
+{
+    font-size: 0.8vw;
+}
+
+.proyect__title
+{
+    height: 3vw;
+    text-align: center;
+}
+
+.title__p
+{
+    font-size: 1.25vw;
+    letter-spacing: 0.4vw;
+    margin-left: 3vw;
+}
+
+.svg-proy-pad
+{
+    margin-left: 7vw;
+}
+
+.proyect__descripcion
+{
+    padding-left: 1vw;
+    width: 16vw;
+}
+
+.proyect__p
+{
+    font-size: 0.95vw;
+    margin: 0;
+}

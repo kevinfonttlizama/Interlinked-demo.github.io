@@ -1,0 +1,92 @@
+.container
+{ 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr auto;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 1.5vw 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Nav"
+      "Search"
+      "Proyectos";
+  }
+  
+  .Nav
+  { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". Logo Perfil";
+    grid-area: Nav;
+    margin-top: 1.5vw;
+  }
+  
+  .Logo
+  {
+    justify-self: center;
+    align-self: center;
+    grid-area: Logo;
+    height: 4vw;
+    width: 4vw;    
+  }
+  
+  .Perfil
+  {
+    justify-self: center;
+    align-self: center;
+    grid-area: Perfil;
+  }
+  
+  .Search
+  {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 3vw;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Añadir Buscar Idioma";
+    grid-area: Search;
+  }
+  
+  .Buscar
+  {
+    justify-self: stretch;
+    align-self: center;
+    grid-area: Buscar;
+  }
+  
+  .Añadir
+  {
+    justify-self: end;
+    align-self: center;
+    grid-area: Añadir;
+  }
+  
+  .Idioma
+  {
+    justify-self: start;
+    align-self: center;
+    grid-area: Idioma;
+  }
+  
+  .Proyectos
+  { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr;
+    gap: 4vw 3vw;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      ". . .";
+    grid-area: Proyectos;
+    margin-top: 1vw;
+    padding: 0 4.32vw;
+  }
+  
