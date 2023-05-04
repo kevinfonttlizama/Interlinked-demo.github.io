@@ -70,4 +70,20 @@ a
     padding-bottom: 50px;
     font-size: 25px;
     letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+.about-background {
+    background:#0c0d0e;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.about-background p {
+    margin: 30%;
+    font-size: x-large;
+    FINT
 }
