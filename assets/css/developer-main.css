@@ -107,10 +107,6 @@ body
     padding-right: 0.2em;
 }
 
-
-
-
-
 .btn-add-box
 {
     justify-content: flex-end;
@@ -123,9 +119,14 @@ body
 }
 
 .bi-chevron-down{
+    color: rgb(166, 166, 166);
     font-size: 3em;
     justify-content: end;
     cursor: pointer;
+}
+
+.bi-chevron-down:hover{
+    color: #fff;
 }
 
 .add-p
@@ -200,7 +201,7 @@ body
 .proyect__descripcion
 {
     padding-left: 1em;
-    width: 15em;
+    width: 18em;
 }
 
 .proyect__p
