@@ -186,3 +186,11 @@ li {
     display: flex;
     align-items: center;
 }
+
+::placeholder {
+    font-size: 10px;
+    text-align: start;
+    mask-origin: 2vw;
+    display: flex;
+    padding-left: 10px;
+  }
