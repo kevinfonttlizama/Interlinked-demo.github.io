@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #000000;
+    margin: 0;
+    color: white;
+    padding: auto;
+    height: auto;
+}
+
+.nav
+{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav-item
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+a
+{
+    color: white;
+    text-decoration-line: none;
+}
+
+.btn
+{
+    background: linear-gradient(90deg, red, rgb(70, 0, 0));
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 10px 10px;
+    text-align: center; 
+}
+
+.btn-studios
+{
+    width: 150px;
+}
+
+.logo
+{
+    width: 150px;
+    height: auto;
+}
