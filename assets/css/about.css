@@ -62,3 +62,12 @@ a
     width: 150px;
     height: auto;
 }
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
