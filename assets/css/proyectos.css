@@ -1,0 +1,85 @@
+body
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.contenedor
+{
+    background-color: #0c0d0e;
+    border-radius: 2vw;
+    color: white;
+    margin: 5vw 0;
+    padding-bottom: 3vw;
+    width: 55vw;
+}
+
+.header
+{
+    align-items: center;
+    display: flex;
+    padding: 0 1vw 1vw 1vw;
+
+}
+
+.header__title
+{
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin-left: 1vw;
+}
+
+.project
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project__item
+{
+    border-bottom: 0.25vw solid gray;
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    width: 46vw;
+}
+.project__item:last-child
+{
+    border-bottom: 0;
+}
+
+.item__logo
+{
+    background-color: white;
+    border-radius: 50%;
+    height: 5vw;
+    width: 5vw;
+}
+
+.item__info
+{
+    margin-left: 1vw;
+}
+
+.item__title
+{
+    font-size: 1.2vw;
+    font-weight: 500;
+    letter-spacing: 0.3vw;
+    margin: 0;
+    padding: 0;
+}
+
+.item__description
+{
+    color: rgb(151, 151, 151);
+    font-size: 1vw;
+    font-weight: 400;
+    margin: 0.3vw 0 0 0;
+    padding: 0;
+}
