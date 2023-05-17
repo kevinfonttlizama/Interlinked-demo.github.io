@@ -1,10 +1,13 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 body{
-    background-color: #000!important;
+    background-color: #000;
     font-size: 16px;
-    color: #fff!important;
+    color: #fff;
+}
 
+::-webkit-scrollbar {
+    display: none;
 }
 
 .d-f{
@@ -24,23 +27,131 @@ body{
 }
 
 .header-title{
-    font-size: 1.5rem;
+    font-size: 2vw;
 }
 
-.left-container{
-    width: 49%!important;
+main{
+    margin: 0em 5vw;
 }
 
-.chats-container{
+.left-container, .detail-container{
+    overflow: hidden;
     border-radius: 20px;
     background-color: rgb(31, 31, 31);
 }
 
-.bi-chevron-left{
-    font-size: 2em;
-    
+.back-btn{
+    cursor: pointer;
 }
 
-.row > .col-10{
+.chats-container{
+    overflow: auto;
+    height: 70vh;
+}
+
+.chats-container > .row{
+    margin-top: 2vw;
+}
+
+.bi-chevron-left{
+    font-size: 2vw;  
+}
+
+.msj-txt{
+    font-size: 2.2vw;
+    margin-left: -3vw;
+}
+
+
+.user_img{
+    width: 4.5vw;
+    max-height: 5vw;
+    margin-left: 1vw;
+    border-radius: 50%;
+}
+
+.user_name{
+    font-size: 1.5vw;
+}
+
+.user_message{
+    font-size: 1.3vw;
+    color: rgb(184, 184, 184);
+}
+
+.msj_notifi{
+    width: 2vw;
+    height: 2vw;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 2em;
+}
+
+.msj_notifi > b{
+    font-size: 1.3vw;
+}
+
+hr{
+    width: 90%;
+    size: 2em;
+    margin-left: 1.5em;
+}
+
+.msj-container{
+    overflow: auto;
+    height: 60vh;
+}
+
+.msj-user, .msj-owner{
+    display: flex;
+    width: 30vw;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    height: auto;
+    margin: 1.5vw 0vw;
+}
+
+.msj-user > p, .msj-owner > p{
+    font-size: 1.3vw;
+    margin: 1.3vw;    
+}
+
+.msj-owner{
+    margin-left: 12vw;
+}
+
+.input-owner{
+    width: 35vw;
+    height: auto;
+    background-color:rgb(60, 60, 60);
+    border-radius: 30px;
+    margin: 2.3vh 3vw;
+}
+
+.clip-add{
+    cursor: pointer;
+    transform: rotate(45deg);
+}
+
+.bi-paperclip{
     font-size: 2em;
 }
+
+.input{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(60, 60, 60);
+}
+
+.btn-start {
+    font-size: 1em;
+    /* width: 12.5em; */
+    background: linear-gradient(90deg, red, rgb(70, 0, 0));
+    border-radius: 40%;
+    border: 0;
+    color: white;
+    padding: 1em 2em;
+    cursor: pointer;
+  }
