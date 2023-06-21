@@ -1,0 +1,19 @@
+.svg-color
+{
+    filter: invert(50%) saturate(1) brightness(1) contrast(1);
+}
+
+.svg-pad
+{
+    padding-right: 0.2vw;
+}
+
+.svg-invert
+{
+    transform: rotate(180deg);
+}
+
+.svg-color:hover
+{
+    filter: invert(0%);
+}

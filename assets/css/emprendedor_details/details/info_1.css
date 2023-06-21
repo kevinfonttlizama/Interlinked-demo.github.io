@@ -1,0 +1,44 @@
+.proyecto__info
+{
+    align-items: center;
+    flex-direction: column;
+}
+
+.proyecto__logo
+{
+    background-color: white;
+    border-radius: 2vw;
+    height: 12vw;
+    margin-bottom: 2vw;
+    width: 13vw;
+    z-index: 100;
+}
+
+.proyecto__recursos
+{
+    align-self: start;
+}
+
+.btn
+{
+    background-color: black;
+    border: 0;
+    border-radius: 1vw;
+    padding: 0.8vw;
+}
+
+.proyecto__contacto
+{
+    justify-content: space-around;
+    margin-top: 3vw;
+    width: 13vw;
+}
+
+.persona
+{
+    background-color: white;
+    border-radius: 1vw;
+    height: 2vw;
+    margin: 0.1vw;
+    width: 2vw;
+}

@@ -1,0 +1,37 @@
+.proyecto_title
+{
+    font-size: 1.5vw;
+    font-weight: bold;
+    letter-spacing: 0.7vw;
+    margin-bottom: 1vw;
+}
+
+.proyecto__descrip
+{
+    font-size: 1.3vw;
+    font-weight: 500;
+    padding: 0.3vw 0;
+}
+
+.proto-title
+{
+    font-size: 1.4vw;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+    margin-top: 1vw;
+}
+
+.proyecto__prototipos
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.prototipo
+{
+    background-color: black;
+    border-radius: 2vw;
+    height: 9vw;
+    margin: 1vw;
+    width: 9vw;
+}

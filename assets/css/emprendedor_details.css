@@ -1,0 +1,39 @@
+:root
+{
+    --bg-element-color: #0c0d0e;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+.bg
+{
+    background-color: black;
+}
+
+.font
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.texto-responsivo
+{
+    font-size: 1vw;
+}
+
+.pointer
+{
+    cursor: pointer;
+}
+
+.proyecto
+{
+    background-color: var(--bg-element-color);
+    border-radius: 2vw 2vw 0 0;
+    padding: 2vw 2vw;
+}
