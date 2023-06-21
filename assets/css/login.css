@@ -1,0 +1,166 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: black;
+  background-image: url(../img/login/LOGIN_BACKGROUND.png);
+  background-repeat: no-repeat;
+  background-size: 50vw 100vh ;
+}
+
+
+.icon__sup,
+.icons,
+.btn-start,
+.submit__btn,
+.register__txt {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  background-color: rgba(65, 65, 65, 0.4);
+  border-radius: 50px;
+  padding: 5.25em;
+  font-size: 1.25em;
+  color: #fff;
+  float: right;
+  margin-right: 4%;
+  margin-top: 5%;
+  display: flex;
+}
+
+.form__input {
+  width: 37.5em;
+  height: 2.1875em;
+}
+
+.btn {
+  background: linear-gradient(90deg, red, rgb(70, 0, 0));
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  padding: .625em .625em;
+  cursor: pointer;
+}
+
+.btn-start {
+  font-size: 1em;
+  width: 12.5rem;
+}
+
+.icons__login {
+  width: 1.2em;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 0.3125rem;
+  margin: .3em;
+  cursor: pointer;
+}
+
+.form .form__body form  p  a {
+  color: #fff;
+  padding-left: .4em;
+}
+
+/* ----------------Media Queries ---------------- */
+
+  /* Tamaño por defecto pantallas  */
+  @media all and (min-width: 1130px) and (max-width: 1360px) {
+
+    body{
+      font-size: .6em;
+    }
+
+    .form{
+      padding: 2em 3.25em;
+      margin-top: 2em;
+    }
+
+    .form__input{
+      width: 26em;
+      height: 1.7em;
+    }
+
+   }
+  
+  /* Tamaño tablet horizontal */
+  @media all and (min-width: 550px ) and (max-width: 1130px) { 
+
+    body{
+      background-size: cover ;
+      font-size: .6em;
+    }
+
+    .form-seccion {
+      display: flex;
+      justify-content: center;
+    }
+
+    .form{
+      background-color: rgba(65, 65, 65, 0.6);
+      padding: 2em 3.25em;
+    }
+
+    .form__input{
+      width: 26em;
+      height: 1.7em;
+    }
+
+  }
+  
+  /* Tamaño tablet  */
+  /* @media all and (min-width: 480px) and (max-width: 768px) { } */
+  
+  /* Tamaño teléfonos */
+  @media all and (max-width: 550px) {
+
+    body{
+      background-size: 100vh ;
+      font-size: .4em;
+    }
+    
+    .form-seccion {
+      display: flex;
+      justify-content: center;
+    }
+
+    .form{
+      background-color: rgba(65, 65, 65, 0.6);
+      padding: 1em;
+    }
+
+    .form__input{
+      width: 24em;
+      height: 1.7em;
+    }
+
+   }
+
+   @media all and (max-width: 330px) {
+
+    body{
+      background-size: 100vh ;
+    }
+    
+    .form-seccion {
+      display: flex;
+      justify-content: center;
+    }
+
+    .form{
+      background-color: rgba(65, 65, 65, 0.6);
+      padding: 1em;
+    }
+
+    .form__input{
+      width: 15em;
+      height: 1.3em;
+    }
+
+   }
