@@ -1,0 +1,424 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: black;
+  background-image: url(../img/register/REGISTER_BACKGROUND.png);
+  background-repeat: no-repeat;
+  background-size: 50vw 100vh;
+}
+
+.icon__sup,
+.icons,
+.btn-start,
+.submit__btn,
+.register__txt {
+  display: flex;
+  justify-content: center;
+}
+
+
+.form {
+  width: 30%;
+  background-color: rgba(65, 65, 65, 0.4);
+  border-radius: 50px;
+  padding: 2em 5em;
+  font-size: 1.25em;
+  color: #fff;
+  float: right;
+  margin-right: 5%;
+  display: flex;
+}
+
+.form__input {
+  width: 100%;
+  height: 2.1875em;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.form__inputs__joined {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__input__name,
+.form__input__lastname {
+  width: 16.625em;
+  height: 2.1875em;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.btn-start {
+  font-size: 1em;
+  width: 12.5em;
+  background: linear-gradient(90deg, red, rgb(70, 0, 0));
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  padding: 0.625em 0.625em;
+  cursor: pointer;
+}
+
+.icons__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icons__main {
+  padding: 1.25em 0.5em;
+}
+
+.icons__btn {
+  cursor: pointer;
+  display: flex;
+  background-color: #fff;
+  width: 10em;
+  height: 4.0625em;
+  border-radius: 10px;
+}
+
+.icons__dev {
+  padding: 0.1125em 0.125em;
+  color: #000;
+  font-size: 2.8125em;
+}
+
+.icons__text {
+  padding: 0.9375em 0em;
+  color: #000;
+  font-size: 1em;
+}
+
+/* ----------------Media Queries ---------------- */
+
+/* Tamaño por defecto pantallas  */
+@media all and (min-width: 1130px) and (max-width: 1360px) {
+
+  .icon__sup{
+    margin-top: -25px;
+  }
+
+  body{
+    background-size: 100vh;
+  }
+
+  .form {
+    padding: .1em 3.25em;
+    margin-top: -1em;
+  }
+
+  .form__input__name,
+  .form__input__lastname {
+    width: 11em;
+    height: 1.7em;
+  }
+
+  .form__input {
+    width: 100%;
+    height: 1.7em;
+  }
+
+  .icons__main {
+    padding: .5em 0.5em;
+  }
+  
+  .icons__btn {
+    width: 9em;
+    height: 2.8em;
+  }
+
+  .icons__dev {
+    font-size: 2em;
+  }
+
+  .icons__text {
+    font-size: .9em;
+  }
+
+}
+
+/* Tamaño tablet horizontal */
+@media all and (min-width: 950px) and (max-width: 1130px) {
+
+  .icon__sup{
+    margin-top: -25px;
+  }
+
+  body {
+    background-size: cover;
+    font-size: 0.6em;
+  }
+
+  .form-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    background-color: rgba(65, 65, 65, 0.6);
+    width: 50%;
+    margin: 0;
+    padding: .1em 4em;
+    
+  }
+
+  .form__input {
+    width: 100%;
+    height: 1.7em;
+  }
+
+  .form__input__name,
+  .form__input__lastname {
+    width: 16em;
+    height: 1.7em;
+  }
+
+  .icons__main {
+    padding: .5em 0.5em;
+  }
+  
+  .icons__btn {
+    width: 9em;
+    height: 2.8em;
+  }
+
+  .icons__dev {
+    font-size: 2em;
+  }
+
+  .icons__text {
+    font-size: .9em;
+  }
+
+}
+
+/* Tamaño tablet  */
+@media all and (min-width: 700px) and (max-width: 950px) { 
+
+  .icon__sup{
+    margin-top: -25px;
+  }
+
+  body {
+    background-size: cover;
+    font-size: 0.6em;
+  }
+
+  .form-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    background-color: rgba(65, 65, 65, 0.6);
+    width: 50%;
+    margin: 0;
+    padding: .1em 4em;
+    
+  }
+
+  .form__input {
+    width: 100%;
+    height: 1.7em;
+  }
+
+  .form__input__name,
+  .form__input__lastname {
+    width: 13em;
+    height: 1.7em;
+  }
+
+  .icons__main {
+    padding: .5em 0.3em;
+  }
+  
+  .icons__btn {
+    width: 9em;
+    height: 2.8em;
+  }
+
+  .icons__dev {
+    font-size: 2em;
+  }
+
+  .icons__text {
+    font-size: .9em;
+  }
+
+}
+
+/* Tamaño teléfonos */
+@media all and (min-width: 500px) and (max-width: 700px) {
+
+  body {
+    background-size: 100vh;
+    font-size: 0.6em;
+  }
+
+  .form-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    background-color: rgba(65, 65, 65, 0.6);
+    width: 50%;
+    margin: 0;
+    padding: .1em 4em;
+  }
+
+  .form__body{
+    margin: 0 -40px 0 -40px;
+  }
+
+  .form__input {
+    width: 100%;
+    height: 1.7em;
+  }
+
+  .form__input__name,
+  .form__input__lastname {
+    width: 10em;
+    height: 1.5em;
+  }
+    .icons__main {
+    padding: .5em 0.3em;
+  }
+
+  .icons__btn {
+    width: 6em;
+    height: 2.8em;
+  }
+
+  .icons__dev {
+    font-size: 1.6em;
+  }
+
+  .icons__text {
+    font-size: .8em;
+  }
+
+}
+
+@media all and (min-width: 330px) and (max-width: 500px) {
+
+  .icon__sup{
+    margin-top: -25px;
+  }
+
+  body {
+    background-size: 100vh;
+    font-size: 0.2em;
+  }
+
+  .form-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    background-color: rgba(65, 65, 65, 0.6);
+    width: 50%;
+    margin: 0;
+    padding: .1em 4em;
+  }
+
+  .form__body{
+    margin: 0 -55px 0 -55px;
+  }
+
+  .form__input {
+    width: 100%;
+    height: 1.7em;
+  }
+
+  .form__input__name,
+  .form__input__lastname {
+    width: 8.5em;
+    height: 1.5em;
+  }
+
+  .icons__btn {
+    width: 6em;
+    height: 2.8em;
+  }
+
+  .icons__dev {
+    font-size: 1.6em;
+  }
+
+  .icons__text {
+    font-size: .8em;
+  }
+
+}
+
+@media all and (max-width: 330px) {
+
+  *{
+    font-size: .98em;
+  }
+
+  .icon__sup{
+    margin-top: -25px;
+  }
+
+  body {
+    background-size: 100vh;
+  }
+
+  .form-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    background-color: rgba(65, 65, 65, 0.6);
+    width: 50%;
+    margin: 0;
+    padding: .1em 4em;
+  }
+
+  .form__body{
+    margin: 0 -55px 0 -55px;
+  }
+
+  .form__input {
+    width: 100%;
+    height: 1.7em;
+  }
+
+  .form__input__name,
+  .form__input__lastname {
+    width: 7.5em;
+    height: 1.5em;
+  }
+
+  .password{
+    font-size: .8em;
+  }
+
+  .icons__main {
+    padding: .4em 0.3em;
+  }
+
+  .icons__btn {
+    width: 7.3em;
+    height: 2.8em;
+  }
+
+  .icons__dev {
+    font-size: 1.6em;
+  }
+
+  .icons__text {
+    font-size: .76em;
+  }
+}
