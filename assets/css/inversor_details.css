@@ -1,0 +1,323 @@
+:root
+{
+    --bg-element-color: #0c0d0e;
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.bg
+{
+    background-color: black;
+}
+
+.font
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* //////////////////////////////////////////////////////////// */
+/* GRID */
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Nav"
+      "Details";
+    height: 100vh;
+  }
+  
+  .nav {  display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". Logo Perfil";
+    grid-area: Nav;
+    padding: 1vw 0;
+  }
+  
+  .logo {
+    justify-self: center;
+    align-self: center;
+    grid-area: Logo;
+  }
+  
+  .perfil {
+    justify-self: center;
+    align-self: center;
+    grid-area: Perfil;
+  }
+  
+  .details { 
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Info-1 Info-2 Close";
+    grid-area: Details;
+  }
+  
+  .info-1 {
+    justify-self: center;
+    align-self: start;
+    grid-area: Info-1;
+  }
+  
+  .info-2 {
+    justify-self: center; 
+    align-self: start; 
+    grid-area: Info-2; 
+  }
+  
+  .close {
+    justify-self: end; 
+    align-self: start; 
+    grid-area: Close; 
+  }
+  
+
+/* //////////////////////////////////////////////////////////// */
+
+/* Propiedades Flex-box por clases: */
+.flex
+{
+    display: flex;
+}
+.flex-jc-center
+{
+    justify-content: center;
+}
+.flex-ai-center
+{
+    align-items: center;
+}
+/* /////////////////// */
+
+.logo
+{
+    grid-column-start: 2;    
+}
+
+.texto-responsivo
+{
+    font-size: 1vw;
+}
+
+
+.logo__img
+{
+    width: 4vw;
+}
+
+.user-activity
+{
+    margin-right: 1vw;
+}
+
+.svg-mar
+{
+    margin-right: 0.7vw;
+}
+
+.user
+{
+    grid-column-start: 3;
+}
+
+
+.nick-box
+{
+    background-color: var(--bg-element-color);
+    border-radius: 1vw;
+    color: white;
+    height: 2vw;
+    margin: 0;
+    text-align: center;  
+}
+
+
+.avatar
+{
+    background-color: white;
+    border-radius: 50%;    
+    height: 2.2vw;
+    justify-self: flex-start;
+    width: 2.2vw;
+    z-index: 100;
+}
+
+
+.nick
+{
+    margin: 0;
+    padding: 0 1vw;
+}
+
+.svg-color
+{
+    filter: invert(50%) saturate(1) brightness(1) contrast(1);
+}
+
+.svg-pad
+{
+    padding-right: 0.2vw;
+}
+
+.svg-invert
+{
+    transform: rotate(180deg);
+}
+
+.svg-color:hover
+{
+    filter: invert(0%);
+}
+
+.pointer
+{
+    cursor: pointer;
+}
+
+
+.proyecto
+{
+    background-color: var(--bg-element-color);
+    border-radius: 2vw 2vw 0 0;
+    padding: 2vw;
+}
+
+.proyecto__info
+{
+    align-items: center;
+    flex-direction: column;
+}
+
+.proyecto__logo
+{
+    background-color: white;
+    border-radius: 2vw;
+    height: 12vw;
+    margin-bottom: 2vw;
+    width: 13vw;
+    z-index: 100;
+}
+
+.proyecto__recursos
+{
+    align-self: start;
+}
+
+.proyecto__contacto
+{
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+
+
+
+.btn
+{
+    background-color: black;
+    border: 0;
+    border-radius: 1vw;
+    padding: 0.8vw;
+}
+
+.persona
+{
+    background-color: white;
+    border-radius: 1vw;
+    height: 2vw;
+    margin: 0.1vw;
+    width: 2vw;
+}
+
+
+.proyecto_title
+{
+    font-size: 1.5vw;
+    font-weight: bold;
+    letter-spacing: 0.7vw;
+    margin-bottom: 1vw;
+}
+
+.proyecto__descrip
+{
+    font-size: 1.3vw;
+    font-weight: 500;
+    padding: 0.3vw 0;
+}
+
+
+.proto-title
+{
+    font-size: 1.4vw;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+    margin-top: 1vw;
+}
+
+.proyecto__prototipos
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.prototipo
+{
+    background-color: black;
+    border-radius: 2vw;
+    height: 9vw;
+    margin: 1vw;
+    width: 9vw;
+}
+
+
+
+
+.proyecto_acciones
+{
+    flex-direction: column;
+    margin-top: 2vw;
+}
+
+
+
+.btn-action
+{
+    border-radius: 0.8vw;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8vw;
+    margin-bottom: 1vw;
+    padding: 0.9vw 3vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-postularse
+{
+    background: linear-gradient(90deg, red, rgb(70, 0, 0));
+}
+
+.btn-enviar-mensaje
+{
+    background: black;
+}
