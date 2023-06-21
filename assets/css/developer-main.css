@@ -1,0 +1,210 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root
+{
+    --bg-element-color: #0c0d0e;
+}
+
+
+body
+{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav
+{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 100%;
+}
+.nav:nth-child(2)
+{
+    margin: 1.7em 0;
+}
+
+
+/* Propiedades Flex-box por clases: */
+.flex
+{
+    display: flex;
+}
+.flex-jc-center
+{
+    justify-content: center;
+}
+.flex-ai-center
+{
+    align-items: center;
+}
+.flex-jc-space-b
+{
+    justify-content: space-between;
+}
+/* /////////////////// */
+
+.logo
+{
+    grid-column-start: 2;    
+    margin-top: 1em;
+}
+
+
+.logo__img
+{
+    width: 60px;
+}
+
+
+.user
+{
+    grid-column-start: 3;
+}
+
+
+.nick-box
+{
+    background-color: var(--bg-element-color);
+    border-radius: 1em;
+    color: white;
+    height: 2em;
+    margin: 0;
+    text-align: center;  
+}
+
+
+.avatar
+{
+    background-color: white;
+    border-radius: 50%;    
+    height: 40px;
+    justify-self: flex-start;
+    width: 40px;
+    z-index: 100;
+}
+
+
+.nick
+{
+    margin: 0;
+    padding: 0 1em;
+}
+
+.svg-add-color
+{
+    filter: invert(100%) saturate(1) brightness(1) contrast(1);
+}
+
+
+.svg-color
+{
+    filter: invert(50%) saturate(1) brightness(1) contrast(1);
+}
+
+.svg-pad
+{
+    padding-right: 0.2em;
+}
+
+.btn-add-box
+{
+    justify-content: flex-end;
+}
+
+.btn-idioma-box
+{
+    justify-content: flex-start;
+
+}
+
+.bi-chevron-down{
+    color: rgb(166, 166, 166);
+    font-size: 3em;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.bi-chevron-down:hover{
+    color: #fff;
+}
+
+.add-p
+{
+    font-size: small;
+}
+
+.btn-lang
+{
+    background-color: var(--bg-element-color);
+    border-radius: 2em;
+    border: 0;
+    color: white;
+    padding: 0 1em;
+}
+
+
+.input-search
+{
+    background-color: var(--bg-element-color);
+    border: 0;
+    border-radius: 2em;
+    color: white;
+    padding: 0 2em;
+    width: 80%;
+}
+
+.proyect-container
+{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.proyect
+{
+    background-color: var(--bg-element-color);
+    border-radius: 2.2em;
+    color: white;
+    justify-content: center;
+    margin: 3em;
+    padding: 0 4em 1em;
+    width: 20em;
+}
+
+.proyect-info
+{
+    flex-direction: column;
+}
+
+.proyect__logo
+{
+    background-color: white;
+    border-radius: 2.3em;
+    height: 5em;
+    width: 6em;    
+}
+
+.proyect__title
+{
+    justify-content: space-evenly;
+    height: 2em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.title__p
+{
+    letter-spacing: 3px;
+}
+
+.proyect__descripcion
+{
+    padding-left: 1em;
+    width: 18em;
+}
+
+.proyect__p
+{
+    font-size: medium;
+}
