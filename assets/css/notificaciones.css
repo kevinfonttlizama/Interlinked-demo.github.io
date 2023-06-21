@@ -1,0 +1,111 @@
+.bg {
+  background-color: black;
+}
+
+.box
+{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.font {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contenedor {
+  background-color: #0c0d0e;
+  border-radius: 2vw;
+  width: 50vw;
+  height: 45vw;
+  padding: 1vw;
+  margin: 1vw;
+}
+
+.fix-align {
+  display: flex;
+  align-items: center;
+}
+
+.header
+{
+  display: flex;
+  align-items: center;
+  font-size: 1.9vw;
+  margin: 0.5vw 0 2vw 0;
+}
+
+.title
+{
+  margin: 0 0 0 2vw;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacto__usuario {
+  border-bottom: 0.2vw solid gray;
+  margin: 1vw 0 0 0;
+  padding-bottom: 1vw;
+  width: 90%;
+}
+
+.contacto__usuario:last-child
+{
+  border-bottom: 0px;
+  width: 90%;
+}
+
+.usuario__avatar {
+  background-color: white;
+  border-radius: 50%;
+  height: 5vw;
+  margin-right: 1.5vw;
+  width: 5vw;
+}
+
+.usuario__info {
+  width: 29vw;
+}
+
+.info__nombre
+{
+  font-size: 1.3vw;
+}
+
+.info__pedido
+{
+  color: rgb(150, 150, 150);
+  font-size: 1.25vw;
+}
+
+.usuario__acciones {
+  justify-self: flex-end;
+}
+
+.btn-aceptar {
+  background-color: white;
+  border-radius: 50vw;
+  color: black;
+  font-size: 1vw;
+  font-weight: bold;
+  height: 1vw;
+  margin-right: 1vw;
+  text-decoration: none;
+  padding: 1vw;
+}
+
+.btn-negar {
+  background: linear-gradient(90deg, red, rgb(70, 0, 0));
+  border-radius: 50vw;
+  color: white;
+  height: 1vw;
+  text-decoration: none;
+  padding: 1vw;
+  width: 1vw;
+}
