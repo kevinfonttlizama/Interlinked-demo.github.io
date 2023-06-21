@@ -1,0 +1,19 @@
+:root
+{
+    --bg-element-color: #0c0d0e;
+}
+
+
+body
+{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.texto-responsivo
+{
+    font-size: 1vw;
+}

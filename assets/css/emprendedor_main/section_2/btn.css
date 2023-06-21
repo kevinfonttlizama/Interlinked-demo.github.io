@@ -1,0 +1,33 @@
+.btn-add-box
+{
+    justify-content: flex-end;
+}
+
+.btn-idioma-box
+{
+    justify-content: flex-start;
+
+}
+
+.btn-add-proyect
+{
+    background: linear-gradient(90deg, #e30101, #311515);
+    border-radius: 2vw;
+    border: 0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    height: 3vw;
+    padding: 0 1vw;
+    text-align: center;
+}
+
+.btn-lang
+{
+    background-color: var(--bg-element-color);
+    border-radius: 2vw;
+    border: 0;
+    color: white;
+    height: 3vw;
+    padding: 0 1vw;
+}
