@@ -48,7 +48,7 @@ li
     list-style-type: none;
 }
 
-a
+.nav a
 {
     color: white;
     text-decoration-line: none;
@@ -110,5 +110,47 @@ a
     font-size: 0.8em;
     letter-spacing: 3px;
     height: 20px;
+    text-decoration: none;
     width: 200px;
+}
+
+
+/* Panel para Demo */
+.demo-panel
+{
+    background-color: rgba(255, 166, 0, 0.822);
+    background-color: rgba(255, 0, 0, 0.555);
+    border-radius: 0.5em;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    bottom: 0;
+
+    padding: 0 1em 1em 1em;
+    width: 14em;
+}
+
+.demo-title
+{
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+
+.m-1
+{
+    margin-left: 1em;
+}
+
+.m-2
+{
+    margin-left: 2em;
+}
+
+.demo-panel a
+{
+    color: white;
+    text-decoration: underline;
 }
